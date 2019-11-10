@@ -1,17 +1,12 @@
 console.log('Plugin JS Loaded');
 
 function addStylesToDiv (div) {
-  div.style.cursor = 'pointer';
-  div.style.position = 'absolute';
-  div.style.top = '53px';
-  div.style.right = '10px';
+  div.id='maxCSS';
   div.classList.add('dashicons', 'dashicons-editor-expand');
-  // <span class="dashicons dashicons-editor-expand"></span>
 }
 
 function createDiv (form) {
-  const div = document.createElement('div'); // Create a <button> element
-  // div.innerHTML = 'Max Css Editor'; // Insert text
+  const div = document.createElement('div'); // Create a <div> element
 
   div.onclick = function () {
     if (!document.fullscreenElement) {
@@ -52,7 +47,6 @@ window.addEventListener('DOMContentLoaded', event => {
     const div = createDiv(form);
 
     helpBtn.parentNode.insertBefore(div, helpBtn);
-    // debugger;
   }
 });
 

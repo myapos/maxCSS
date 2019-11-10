@@ -1,4 +1,6 @@
-.wrap {
-  background: white;
-  padding: 2rem;
+#maxCSS {
+  cursor: pointer;
+  position: absolute;
+  top:53px;
+  right: 10px;
 }
