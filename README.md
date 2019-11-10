@@ -5,3 +5,4 @@ MaxCSS is a simple plugin for Wordpress CMS. It's purpose is to add a maximize C
 ## Basic usage
 
 This plugin adds a maximize icon in extra css section. The maximize icon is generated and positioned in a dynamic manner inside it's container. It is based on requestFullscreen function and if it is supported then the user can add it's CSS rules using CSS editor im fullscreen mode. The user can exit fullscreen mode pressing the ESC button or clicking again on the maxCSS button.
+![alt text](https://github.com/myapos/maxCSS/blob/master/maxCSS.png)
