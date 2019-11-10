@@ -1,12 +1,12 @@
-console.log('Plugin JS Loaded');
+var id = 'maxCSS';
 
 function addStylesToDiv (div) {
-  div.id='maxCSS';
+  div.id = id;
   div.classList.add('dashicons', 'dashicons-editor-expand');
 }
 
 function createDiv (form) {
-  const div = document.createElement('div'); // Create a <div> element
+  var div = document.createElement('div'); // Create a <div> element
 
   div.onclick = function () {
     if (!document.fullscreenElement) {
@@ -15,7 +15,7 @@ function createDiv (form) {
           alert(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
         });
       } else {
-        alert('Maximize css editor is not supported');
+        alert('Maximize css editor feature is not supported');
       }
     } else {
       document.exitFullscreen();
@@ -27,26 +27,27 @@ function createDiv (form) {
 }
 
 window.addEventListener('DOMContentLoaded', event => {
-  console.log('DOM fully loaded and parsed');
 
-  const form = document.getElementById('customize-controls');
-  if (form) {
+  var form = document.getElementById('customize-controls');
+  // get ul
+  var ul = document.getElementById('sub-accordion-section-custom_css');
+
+  if (form && ul) {
     form.style.maxWidth = 'auto';
     form.style.width = 'auto';
 
-    // get ul
-
-    const ul = document.getElementById('sub-accordion-section-custom_css');
-
-    console.log('ul', ul);
-
     // get help button
-
     const helpBtn = ul.getElementsByClassName('customize-help-toggle')[0];
 
-    const div = createDiv(form);
+    // check if element already exists
 
-    helpBtn.parentNode.insertBefore(div, helpBtn);
+    var maxCSS = document.getElementById(id);
+
+    if (!maxCSS) {
+      var div = createDiv(form);
+      helpBtn.parentNode.insertBefore(div, helpBtn);
+    }
+
   }
 });
 
