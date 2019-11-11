@@ -12,4 +12,4 @@ This plugin adds a maximize icon in extra css section. The maximize icon is gene
 
 ## Installation guide
 
-Download plugin as a .zip from github repo (option: clone or download as .zip) and install it through the plugin installation steps in wordpress administrator interface
+Download plugin as a .zip from github repo (option: clone or download as .zip) and install it through the plugin installation steps in wordpress administrator interface.
