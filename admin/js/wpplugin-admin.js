@@ -15,7 +15,7 @@ function createDiv (form) {
           alert(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
         });
       } else {
-        alert('Maximize css editor feature is not supported');
+        alert('Maximize css editor feature is not supported. Please try Chrome or Firefox browsers');
       }
     } else {
       document.exitFullscreen();
@@ -48,6 +48,8 @@ window.addEventListener('DOMContentLoaded', event => {
       helpBtn.parentNode.insertBefore(div, helpBtn);
     }
 
+  } else {
+    alert('Not form is found. Please contact technical support or submit an issue in https://github.com/myapos/maxCSS')
   }
 });
 
