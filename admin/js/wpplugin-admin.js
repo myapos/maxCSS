@@ -1,7 +1,7 @@
-var id = 'maxCSS';
+var idMaxCSS = 'maxCSS';
 
 function addStylesToDiv (div) {
-  div.id = id;
+  div.id = idMaxCSS;
   div.classList.add('dashicons', 'dashicons-editor-expand');
 }
 
@@ -11,7 +11,7 @@ function createDiv (form) {
   div.onclick = function () {
     if (!document.fullscreenElement) {
       if (form.requestFullscreen) {
-        form.requestFullscreen().catch(err => {
+        form.requestFullscreen().catch( function (err) {
           alert(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
         });
       } else {
@@ -26,7 +26,7 @@ function createDiv (form) {
   return div;
 }
 
-window.addEventListener('DOMContentLoaded', event => {
+window.addEventListener('DOMContentLoaded', function (event) {
 
   var form = document.getElementById('customize-controls');
   // get ul
@@ -41,7 +41,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // check if element already exists
 
-    var maxCSS = document.getElementById(id);
+    var maxCSS = document.getElementById(idMaxCSS);
 
     if (!maxCSS) {
       var div = createDiv(form);
