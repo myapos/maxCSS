@@ -27,7 +27,7 @@ No F.A.Q yet
 
 == Screenshots ==
 
-1.MaxCSS icon at 'Additional CSS' in 'Customize Theme' (running with WordPress 5.2 here)
+1. MaxCSS icon at 'Additional CSS' in 'Customize Theme' (running with WordPress 5.2 here)
 
 == Changelog ==
 
