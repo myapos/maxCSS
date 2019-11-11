@@ -6,6 +6,8 @@
 * Version: 1.0
 * Author: Apostolakis Myron
 * Author URI: http://myapos.oncrete.gr/
+* License: GPL v2 or later
+* License URI: https://www.gnu.org/licenses/gpl-2.0.html
 **/
 
 // If this file is called directly, abort.
