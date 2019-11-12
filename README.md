@@ -1,6 +1,6 @@
 # maxCSS
 
-MaxCSS is a simple plugin for Wordpress CMS. It's purpose is to expand `Additional CSS` functionality in the customize theme interface, adding a to-maximize CSS editor icon.
+MaxCSS is a simple plugin for Wordpress CMS. It's purpose is to expand `Additional CSS` functionality in the customize theme interface, adding a `to-maximize` CSS editor icon.
 
 ## Basic usage
 
