@@ -12,10 +12,10 @@ function createDiv (form) {
     if (!document.fullscreenElement) {
       if (form.requestFullscreen) {
         form.requestFullscreen().catch( function (err) {
-          alert(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+          alert('maxCSS:Error attempting to enable full-screen mode:'+ err.message + '('+err.name+')');
         });
       } else {
-        alert('Maximize css editor feature is not supported. Please try Chrome or Firefox browsers');
+        alert('maxCSS:Maximize css editor feature is not supported. Please try Chrome or Firefox');
       }
     } else {
       document.exitFullscreen();
@@ -49,7 +49,7 @@ window.addEventListener('DOMContentLoaded', function (event) {
     }
 
   } else {
-    alert('Not form is found. Please contact technical support or submit an issue in https://github.com/myapos/maxCSS')
+    alert('maxCSS: Not form is found. Please contact technical support or submit an issue in https://github.com/myapos/maxCSS')
   }
 });
 

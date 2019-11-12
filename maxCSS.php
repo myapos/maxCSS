@@ -15,13 +15,13 @@ if ( ! defined( 'WPINC' ) ) {
   die;
 }
 
-define( 'WPPLUGIN_URL', plugin_dir_url( __FILE__ ) );
-define( 'WPPLUGIN_PATH', plugin_dir_path( __FILE__ ) );
+define( 'MAX_CSS_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
+define( 'MAX_CSS_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
 
 // Enqueue Plugin CSS
-include( plugin_dir_path( __FILE__ ) . 'includes/wpplugin-styles.php');
+include( plugin_dir_path( __FILE__ ) . 'includes/maxcss-styles.php');
 
 // Enqueue Plugin JavaScript
-include( plugin_dir_path( __FILE__ ) . 'includes/wpplugin-scripts.php');
+include( plugin_dir_path( __FILE__ ) . 'includes/maxcss-scripts.php');
 
 ?>
