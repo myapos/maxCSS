@@ -16,7 +16,7 @@ This plugin adds a `to-maximize icon` in the `Additional CSS` screen. The `to-ma
 
 ## Installation guide
 
-Download plugin as a .zip from github repo (option: clone or download as .zip) and install it through the plugin installation steps in wordpress administrator interface. Alternatively you can install through wordpress.org directory with the keyword `maxCSS`.
+Download plugin as a .zip from github repo (option: clone or download as .zip) and install it through the plugin installation steps in wordpress administrator interface. Alternatively you can search through wordpress.org directory with the keyword `maxCSS`.
 
 ## Download from wordpress.org
 Visit the following [link](https://wordpress.org/plugins/max-css/)
