@@ -9,6 +9,7 @@ This plugin adds a `to-maximize icon` in the `Additional CSS` screen. The `to-ma
 ## Screenshot
 
 ![alt text](https://github.com/myapos/maxCSS/blob/master/assets/screenshot-1.png)
+![alt text](https://github.com/myapos/maxCSS/blob/master/assets/screenshot-2.png)
 
 ## Installation guide
 
