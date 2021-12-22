@@ -3,7 +3,7 @@
 * Plugin Name: Max CSS
 * Plugin URI: https://github.com/myapos/maxCSS
 * Description: Adds maximize button to extra css in customize theme section
-* Version: 1.0
+* Version: 1.1
 * Author: Apostolakis Myron
 * Author URI: http://myapos.oncrete.gr/
 * License: GPL v2 or later
