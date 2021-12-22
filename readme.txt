@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=myapo
 &lc=US&item_name=Donation+to+Max+CSS+Editor+Wordpress+Plugin&no_note=0&cn=&currency_code=EUR&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted
 Tags: css,editor, maximize, icon, addtional-css, maxCSS
 Requires at least: 5.2
-Tested up to: 5.2
+Tested up to: 5.8.2
 Requires PHP: 5.0
 Stable Tag: trunk
 License: GPLv2 or later
@@ -30,7 +30,14 @@ No F.A.Q yet
 1. MaxCSS icon at 'Additional CSS' in 'Customize Theme' (running with WordPress 5.2 here)
 2. Maximized CSS editor (running with WordPress 5.2 here)
 
+== Upgrade Notice ==
+= 1.1 =
+* This update fixes an issue with form not found for versions greater than 5.6.
+
 == Changelog ==
 
+= 1.1 =
+* Tested with latest wordpress version.
 = 1.0 =
 * First version.
+
