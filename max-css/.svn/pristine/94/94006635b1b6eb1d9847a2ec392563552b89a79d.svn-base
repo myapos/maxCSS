@@ -26,7 +26,7 @@ The user can exit fullscreen mode by pressing ESC or clicking again on the maxCS
 2. Activate the "maxCSS" plugin through the 'Plugins' menu in WordPress
 3. Visit Customize Theme --> Additional CSS --> Click on MaxCSS button
 
-You can find a step by step tutorial in the <a href="https://codebitshub.com/maxcss-wordpress-plugin-installation-tutorial/" target="_blank">codebitshub</a> blog.
+You can find a step by step tutorial in the [codebitshub](https://codebitshub.com/maxcss-wordpress-plugin-installation-tutorial/) blog.
 
 == Frequently Asked Questions ==
 No F.A.Q yet
